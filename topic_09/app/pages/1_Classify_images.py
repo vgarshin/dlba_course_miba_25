@@ -258,7 +258,7 @@ if uploaded_file is not None:
             found = []
             for result in results:
                 if len(result):
-                    name = row.identity.values
+                    name = result.identity.values
                     if name:
                         found.append(
                             name[0].replace(f'{DB_PATH}/', '').replace('.jpg', '')

@@ -50,7 +50,7 @@ for path in [IMGS_PATH, DB_PATH]:
 st.markdown(
     """
     More information:
-    - DL course page https://github.com/vgarshin/dlba_course_miba_24
-    - Telegram channel https://t.me/+9IWc1JocKT40MTJi
+    - DL course page https://github.com/vgarshin/dlba_course_miba_25
+    - Telegram channel https://t.me/+MYyB2NdGTnc2MGJi
     """
 )
