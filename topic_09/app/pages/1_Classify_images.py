@@ -107,6 +107,7 @@ with st.spinner('Please wait, application is initializing...'):
     # as an alternative:
     # https://docs.ultralytics.com/tasks/segment/
     # NOTE: version 11 of YOLO available
+    #
     # Your code may look like this:
     #MODEL_SEG_NAME = '<YOUR_VERSION_YOLO>'
     #MODEL_SEG = YOLO(MODEL_SEG_NAME)
@@ -127,7 +128,7 @@ with st.spinner('Please wait, application is initializing...'):
     # and categories for zero-shot classifier
     # to work correctly.
     # You will have to test your new classes
-    # with ne images uploading
+    # with the new images uploading
     ####################################
     APP_CONFIG = read_json(file_path='config.json')
     CLASSES = APP_CONFIG['classes']
@@ -142,7 +143,7 @@ with st.spinner('Please wait, application is initializing...'):
     if not os.path.exists(imgs_path):
         os.makedirs(imgs_path)
 
-    # faces detection  and recognition config
+    # faces detection and recognition config
     DEEPFACE_MODELS = [
         'VGG-Face',
         'Facenet',
